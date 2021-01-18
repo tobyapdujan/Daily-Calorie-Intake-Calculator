@@ -3,12 +3,19 @@ import { NavController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
-  templateUrl: 'home.html'
+  templateUrl: 'home.html',
+  styleUrls: ['home.css']
 })
 export class HomePage {
+  gender: string;
+  height: number;
+  weight: number;
+  age: number;
+  activitylevel: string;
+  dcic: number;
 
-  constructor(public navCtrl: NavController) {
-
-  }
+calculateDCIC () {
+  
+}
 
 }
